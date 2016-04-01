@@ -9,7 +9,7 @@ assembly_info:
 before_build:
 - nuget restore
 build:
-  project: ConsoleApplication1\ConsoleApplication1.sln
+  project: AppVeyorTest.sln
   parallel: true
   verbosity: normal
 test:
